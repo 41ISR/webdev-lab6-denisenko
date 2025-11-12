@@ -9,7 +9,7 @@ const Layout = () => {
                 <h4>OMDB</h4>
                 <ul>
                     <li>
-                        <Link>Главная</Link>
+                        <Link href='/'>Главная</Link>
                     </li>
                 </ul>
             </nav>
