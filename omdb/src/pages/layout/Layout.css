@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    background-color: #070707;
+}
+
+.container {
+    width: 100%;
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #bebebe;
+    border-bottom: 3px solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
