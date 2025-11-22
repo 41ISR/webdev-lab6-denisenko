@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: #bebebe;
+}
+
+.search-field {
+    padding-bottom: 2rem;
+    input {
+        font-size: 1.1em;
+        padding: 6px;
+    }
+}
+
+.player-feed{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    grid-auto-rows: 10rem;
+}

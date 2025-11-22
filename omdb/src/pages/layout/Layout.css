@@ -1,6 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    background-color: #070707;
+}
+
 .container {
     width: 100%;
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -14,6 +23,8 @@ main {
 nav {
     display: flex;
     justify-content: space-between;
+    color: #bebebe;
+    border-bottom: 3px solid black;
 }
 
 ul {

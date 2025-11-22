@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 // import "./SearchPage.css"
 import PlayerCard from "../../components/PlayerCard/PlayerCard"
+import "./SearchPage.css"
 
 const SearchPage = () => {
     const [playerName, setPlayerName] = useState("")
@@ -40,7 +41,7 @@ const SearchPage = () => {
     return (
         <>
             <h1>Поиск</h1>
-            <form onSubmit={handleSubmit}>
+            <form className="search-field" onSubmit={handleSubmit}>
                 <input
                     value={playerName}
                     onChange={(e) => setPlayerName(e.target.value)}
